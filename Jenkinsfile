@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout'){
             steps {
               git url: 'https://github.com/Philip-Doonan/vat-calculator.git',
-                  branch: 'main' 
+                  branch: 'main'
             }
         }
         stage('Run Tests') {
